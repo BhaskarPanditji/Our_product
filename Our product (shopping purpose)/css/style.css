@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('https://img.freepik.com/free-vector/abstract-pattern-design_1053-524.jpg');
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-blend-mode: darken;
+    padding: 15px 5%;
+    align-items: center;
+}
+.logo img{
+    width: 47px;
+}
+.navlist{
+    list-style-type: none;
+    display: flex;
+    gap: 72px;
+}
+.navlist li a{
+    color: white;
+    text-decoration: none;
+}
+.icon{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    padding: 12px 15px 6px 8px;
+    color: white;
+    font-size: 27px;
+}
+.navlist li a:hover{
+    background-color: rgba(190, 189, 189, 0.274);
+    padding: 28px 0 28px 0;
+}
+.icon li:hover{
+    cursor: pointer;
+}
+.firstsection{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 5%;
+}
+.slider{
+    display: flex;
+    justify-content: space-between;
+}
+.L-arrow{
+    color: white;
+    align-self: center;
+
+    font-size: 23px;
+    cursor: pointer;
+}
+.L-arrow:hover{
+    transform: translate(-15px);
+    transition: 2s;
+}
+.R-arrow{
+    color: white;
+    font-size: 23px;
+    align-self: center;
+    cursor: pointer;
+}
+.R-arrow:hover{
+    transform: translate(15px);
+    transition: 2s;
+}
+.leftside {
+    font-size: 23px;
+    align-self: center;
+    color: white;
+}
+.rightside img{
+    align-self: center;
+}
+button.btn {
+    padding: 15px 48px 15px 48px;
+    margin: 35px 0 0 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.content{
+    padding: 15px 5%;
+}
+h2{
+    font-size: 50px;
+    padding-bottom:11px;
+}
+h3{
+    font-size: 50px;
+}
+.photo {
+    display: flex;
+    gap: 23px;
+    padding: 23px 0 0 0;
+}
+.photo img{
+    width: 382px;
+}
+.style p{  
+    padding: 28px 0 40px 0px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.ad{
+    display: flex;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    color: white;
+    padding: 0px 63px;
+    flex-direction: column;
+}
+.right img{
+    display: block;
+    width: 690px;
+}
+.eow{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 11px;
+    gap: 20px;
+    font-size: 16px;
+}
+button.eow{
+    margin: 19px 0;
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+button.eow:hover{
+    color:rgb(165, 159, 159);    
+}
+.folders {
+    display: flex;
+    gap: 109px;
+    padding: 15px 5%;
+
+}
+.folders img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+}
+.folders :hover{
+    opacity: 1;
+}
+.vl{
+    writing-mode: vertical-rl;
+    padding:45px 63px 0 0;
+    font-weight: bold;
+}
+.brands{
+    background-color: rgb(223, 223, 241);
+}
+.brands p{
+    padding-top: 32px;
+}
+.brands h4 {
+    font-size: 26px;
+    padding-top: 27px;
+}
+#brands {
+    display: flex;
+    gap: 0;
+    padding:40px 13px 0 65px;
+}
+#brands img {
+    width: 323px;
+}
+#brands-btn{
+    color:black;    
+}
+#brands-btn:hover{
+    color:rgba(19, 18, 18, 0.479);
+}
+.quar{
+    padding-left: 65px;
+}
+.option{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 47px;
+    padding: 40px 0 80px 64px;
+}
+i#option-icon {
+    font-size: 192px;
+    padding: 25px 0 20px 0;
+}
+.option h4 {
+    font-size: 21px;
+}
+.New_Releases{
+    display: flex;
+    padding: 67px 0 60px 0;
+}
+.progress_display{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 5%;
+}
+.progress {
+    font-size: 27px;
+    align-self: center;
+    padding: 0 149px 0 0;
+}
+.ratio{
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+.line{
+    margin: 9px 0;
+    height:1px;
+    width: 100%;
+    background: grey;
+}
+.bar1{
+    height: 4px;
+    width: 95%;
+    background: #000;
+}
+.bar2{
+    height: 4px;
+    width: 90%;
+    background: #000;
+}
+.bar3{
+    height: 4px;
+    width: 85%;
+    background: #000;
+}
+.pictual{
+    width:550px;
+}
+.pictual img{
+    width: 551px;
+    height: 465px;
+}
+.presentation{
+    background-color:#1d1d1f;
+    color: white;
+    padding: 15px 5%;
+
+    line-height: 2;
+}
+.flex{
+    gap: 12px;
+    display: flex;
+    font-size: 33px;
+    align-items: center;
+
+}
+.presentation h1{
+    font-size: 44px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 26px 0 25px 0;
+}
